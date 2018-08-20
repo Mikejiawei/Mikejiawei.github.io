@@ -82,7 +82,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Java入门,算法," />
 
 
 
@@ -95,16 +95,18 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
 
 
 
-<meta name="description" content="一个程序员的主站">
-<meta property="og:type" content="website">
-<meta property="og:title" content="XJW&#39;s Blog">
-<meta property="og:url" content="https://www.xiejiawei.cc/index.html">
+<meta name="description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2)  稳定性：稳定[^1]  排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺">
+<meta name="keywords" content="Java入门,算法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="三种常用的排序算法">
+<meta property="og:url" content="https://www.xiejiawei.cc/2018/08/21/三种常用的排序算法/index.html">
 <meta property="og:site_name" content="XJW&#39;s Blog">
-<meta property="og:description" content="一个程序员的主站">
+<meta property="og:description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2)  稳定性：稳定[^1]  排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-08-20T16:33:54.621Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="XJW&#39;s Blog">
-<meta name="twitter:description" content="一个程序员的主站">
+<meta name="twitter:title" content="三种常用的排序算法">
+<meta name="twitter:description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2)  稳定性：稳定[^1]  排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺">
 
 
 
@@ -134,13 +136,13 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
 
 
 
-  <link rel="canonical" href="https://www.xiejiawei.cc/"/>
+  <link rel="canonical" href="https://www.xiejiawei.cc/2018/08/21/三种常用的排序算法/"/>
 
 
 
 
 
-  <title>XJW's Blog</title>
+  <title>三种常用的排序算法 | XJW's Blog</title>
   
 
 
@@ -159,8 +161,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <a href="https://github.com/Mikejiawei"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
@@ -275,9 +276,9 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -307,9 +308,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/21/三种常用的排序算法/" itemprop="url">三种常用的排序算法</a></h1>
+          <h1 class="post-title" itemprop="name headline">三种常用的排序算法</h1>
         
 
         <div class="post-meta">
@@ -383,9 +382,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
       
 
       
-        
-          
-            <h1 id="三种常用的排序算法"><a href="#三种常用的排序算法" class="headerlink" title="三种常用的排序算法"></a>三种常用的排序算法</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p><em>笔者</em> 是一名在校大学生，在学校常用的算法有很多，<strong>毕竟算法是程序的灵魂</strong> ，我就整理一点算法笔记放在博客上以供参考。<em>PS: Java版本</em></p>
+        <h1 id="三种常用的排序算法"><a href="#三种常用的排序算法" class="headerlink" title="三种常用的排序算法"></a>三种常用的排序算法</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p><em>笔者</em> 是一名在校大学生，在学校常用的算法有很多，<strong>毕竟算法是程序的灵魂</strong> ，我就整理一点算法笔记放在博客上以供参考。<em>PS: Java版本</em></p>
 <hr>
 <h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><ul>
 <li><p>平均时间复杂度：O(n^2)</p>
@@ -472,8 +469,6 @@ emmm，常用的排序算法就介绍到这里，如有错漏之处，或者有�
 Email： 15270013718@163.com
 </code></pre><p>  [^1]: <strong>如果Ai = Aj，排序前Ai在Aj之前，排序后Ai还在Aj之前，则称这种排序算法是稳定的。</strong>  </p>
 
-          
-        
       
     </div>
     
@@ -482,311 +477,107 @@ Email： 15270013718@163.com
 
     <div>
         
+          
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2018/08/21/三种常用的排序算法/">三种常用的排序算法</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 谢嘉威 的个人博客">谢嘉威</a></p>
+  <p><span>发布时间:</span>2018年08月21日 - 00:08</p>
+  <p><span>最后更新:</span>2018年08月21日 - 00:08</p>
+  <p><span>原始链接:</span><a href="/2018/08/21/三种常用的排序算法/" title="三种常用的排序算法">https://www.xiejiawei.cc/2018/08/21/三种常用的排序算法/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.xiejiawei.cc/2018/08/21/三种常用的排序算法/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+      $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+        });
+    });  
+</script>
+
+        
     </div>
     
 
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>捐助作者</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="谢嘉威 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="谢嘉威 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
     
 
     
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.xiejiawei.cc/2018/06/05/类与对象/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="谢嘉威">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="XJW's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/05/类与对象/" itemprop="url">类与对象</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-05T00:54:47+08:00">
-                2018-06-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/Java入门/" rel="tag"><i class="fa fa-tag"></i> Java入门</a>
           
-
+            <a href="/tags/算法/" rel="tag"><i class="fa fa-tag"></i> 算法</a>
           
-            
-          
-
-          
-          
-
-        
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          <p><img src="http://p9vujz2kq.bkt.clouddn.com/01title.jpg" alt=" "></p>
-<h1 id="当大一萌新遇上Java系列——浅谈Java中的类与对象"><a href="#当大一萌新遇上Java系列——浅谈Java中的类与对象" class="headerlink" title="当大一萌新遇上Java系列——浅谈Java中的类与对象"></a>当大一萌新遇上Java系列——浅谈Java中的类与对象</h1><p><a href="//www.zhihu.com/people/a-kun-99-10"><img src="http://p9vujz2kq.bkt.clouddn.com/01avatar.jpg" alt="Mikejiawei"></a></p>
-<p><a href="//www.zhihu.com/people/a-kun-99-10">Mikejiawei</a></p>
-<p>笔者是一名大一新生，虽久闻Java大名，却不识庐山真面目，最近才开始接触Java这门语言。</p>
-<ul>
-<li>Java作为一种流行的语言，自有其可取之处，毕竟它有可以跨平台运行的优点，被众多厂商支持，以及拥有众多的开发工具。</li>
-</ul>
-<p>当然作为一个程序猿吐槽自己用的语言是常见的消遣方式?,例如</p>
-<blockquote>
-<p>JAVA truly is the great equalizing software. It has reduced all computers to mediocrity and buggyness. - NASA’s J-Track web site（Java是一个真正注重平等权的软件，它将所有的电脑（不管配置有多好）统统变成平庸的以及有bug的电脑。- NASA’s J-Track web site）<br>Whenever I write code in Java I feel like I’m filling out endless forms in triplicate. – Joe Marshall (aka jrm)（每当我在Java中写代码时，我都觉得我在填写一式三份的表格 – Joe Marshall）</p>
-</blockquote>
-<p>言归正传，Java作为一种面向对象的语言，顾名思义就是把构成问题事物分解成各个对象，并描述对象在解决整个问题的步骤中的状态和行为。这与C等面向过程的语言不同，有着不同的解决问题的方式。今天我们谈的是java中的“类与对象”。<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/06/05/类与对象/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/06/05/类与对象/" rel="next" title="类与对象">
+                <i class="fa fa-chevron-left"></i> 类与对象
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
 
-    <div>
-        
-    </div>
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.xiejiawei.cc/2018/06/04/你好-Hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="谢嘉威">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="XJW's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/04/你好-Hexo/" itemprop="url">你好-Hexo</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+          <div class="post-nav-prev post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-04T01:48:56+08:00">
-                2018-06-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-        
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="我写的第一个md"><a href="#我写的第一个md" class="headerlink" title="我写的第一个md"></a>我写的第一个md</h1><hr>
-<p>使用Hexo,是非常简单的一件事！</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    <div>
-        
-    </div>
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -796,10 +587,11 @@ Email： 15270013718@163.com
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -807,6 +599,15 @@ Email： 15270013718@163.com
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzA4NS8xMzYyMQ=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -827,8 +628,17 @@ Email： 15270013718@163.com
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -928,6 +738,22 @@ Email： 15270013718@163.com
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=484365611&auto=0&height=66"></iframe>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#三种常用的排序算法"><span class="nav-number">1.</span> <span class="nav-text">三种常用的排序算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#引言"><span class="nav-number">1.1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#冒泡排序"><span class="nav-number">1.2.</span> <span class="nav-text">冒泡排序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选择排序"><span class="nav-number">1.3.</span> <span class="nav-text">选择排序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快速排序"><span class="nav-number">1.4.</span> <span class="nav-text">快速排序</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1083,6 +909,10 @@ Email： 15270013718@163.com
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -1111,6 +941,17 @@ Email： 15270013718@163.com
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
