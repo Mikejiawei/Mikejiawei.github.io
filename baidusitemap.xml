@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.xiejiawei.cc/2018/08/21/%E4%B8%89%E7%A7%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2018-08-20T16:33:54.621Z</lastmod>
+    <lastmod>2018-10-05T01:50:47.080Z</lastmod>
     <data>
         <display>
         <title>三种常用的排序算法</title>
@@ -18,7 +18,7 @@
          
            
              
-              <breadCrumb title="Java" url="https://www.xiejiawei.cc/categories/Java/"/>
+              <breadCrumb title="Algorithm" url="https://www.xiejiawei.cc/categories/Algorithm/"/>
           
         </display>
     </data>
@@ -48,22 +48,5 @@
     
     
     
-    
-  <url>
-    <loc>https://www.xiejiawei.cc/2018/06/04/%E4%BD%A0%E5%A5%BD-Hexo/</loc>
-    <lastmod>2018-06-04T15:51:40.886Z</lastmod>
-    <data>
-        <display>
-        <title>你好-Hexo</title>
-        <pubTime>2018-06-03T17:48:56.000Z</pubTime>
-        
-        <tag>start</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
 </urlset>
