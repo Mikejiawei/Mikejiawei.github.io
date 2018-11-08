@@ -92,21 +92,18 @@
 
 
 
-<meta name="description" content="当大一萌新遇上Java系列——浅谈Java中的类与对象Mikejiawei 笔者是一名大一新生，虽久闻Java大名，却不识庐山真面目，最近才开始接触Java这门语言。  Java作为一种流行的语言，自有其可取之处，毕竟它有可以跨平台运行的优点，被众多厂商支持，以及拥有众多的开发工具。  当然作为一个程序猿吐槽自己用的语言是常见的消遣方式?,例如  JAVA truly is the great">
+<meta name="description" content="基本数据类型  众所周知，Java是面向对象的语言，一切皆对象。但是为了兼容人类根深蒂固的数据处理习惯，加快常规数据的处理速度，提供了9种基本数据类型，他们都不具备对象的特性，没有属性和行为。Java的9种基本数据类型包括 boolean、byte、char、short、int、long、double和refvar。前8种数据类型表示生活中的真假、字符、整数和小数，最后一种refvar是面向对象世">
 <meta name="keywords" content="Java入门">
 <meta property="og:type" content="article">
-<meta property="og:title" content="类与对象">
-<meta property="og:url" content="https://www.xiejiawei.cc/2018/06/05/类与对象/index.html">
+<meta property="og:title" content="数据类型之Integer与int">
+<meta property="og:url" content="https://www.xiejiawei.cc/2018/11/01/数据类型之Integer与int/index.html">
 <meta property="og:site_name" content="XJW&#39;s Blog">
-<meta property="og:description" content="当大一萌新遇上Java系列——浅谈Java中的类与对象Mikejiawei 笔者是一名大一新生，虽久闻Java大名，却不识庐山真面目，最近才开始接触Java这门语言。  Java作为一种流行的语言，自有其可取之处，毕竟它有可以跨平台运行的优点，被众多厂商支持，以及拥有众多的开发工具。  当然作为一个程序猿吐槽自己用的语言是常见的消遣方式?,例如  JAVA truly is the great">
+<meta property="og:description" content="基本数据类型  众所周知，Java是面向对象的语言，一切皆对象。但是为了兼容人类根深蒂固的数据处理习惯，加快常规数据的处理速度，提供了9种基本数据类型，他们都不具备对象的特性，没有属性和行为。Java的9种基本数据类型包括 boolean、byte、char、short、int、long、double和refvar。前8种数据类型表示生活中的真假、字符、整数和小数，最后一种refvar是面向对象世">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://p9vujz2kq.bkt.clouddn.com/01title.jpg">
-<meta property="og:image" content="http://p9vujz2kq.bkt.clouddn.com/01avatar.jpg">
-<meta property="og:updated_time" content="2018-11-01T03:27:04.222Z">
+<meta property="og:updated_time" content="2018-11-08T11:10:44.475Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="类与对象">
-<meta name="twitter:description" content="当大一萌新遇上Java系列——浅谈Java中的类与对象Mikejiawei 笔者是一名大一新生，虽久闻Java大名，却不识庐山真面目，最近才开始接触Java这门语言。  Java作为一种流行的语言，自有其可取之处，毕竟它有可以跨平台运行的优点，被众多厂商支持，以及拥有众多的开发工具。  当然作为一个程序猿吐槽自己用的语言是常见的消遣方式?,例如  JAVA truly is the great">
-<meta name="twitter:image" content="http://p9vujz2kq.bkt.clouddn.com/01title.jpg">
+<meta name="twitter:title" content="数据类型之Integer与int">
+<meta name="twitter:description" content="基本数据类型  众所周知，Java是面向对象的语言，一切皆对象。但是为了兼容人类根深蒂固的数据处理习惯，加快常规数据的处理速度，提供了9种基本数据类型，他们都不具备对象的特性，没有属性和行为。Java的9种基本数据类型包括 boolean、byte、char、short、int、long、double和refvar。前8种数据类型表示生活中的真假、字符、整数和小数，最后一种refvar是面向对象世">
 
 
 
@@ -136,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="https://www.xiejiawei.cc/2018/06/05/类与对象/"/>
+  <link rel="canonical" href="https://www.xiejiawei.cc/2018/11/01/数据类型之Integer与int/"/>
 
 
 
 
 
-  <title>类与对象 | XJW's Blog</title>
+  <title>数据类型之Integer与int | XJW's Blog</title>
   
 
 
@@ -303,7 +300,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.xiejiawei.cc/2018/06/05/类与对象/">
+    <link itemprop="mainEntityOfPage" href="https://www.xiejiawei.cc/2018/11/01/数据类型之Integer与int/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="谢嘉威">
@@ -320,7 +317,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">类与对象</h1>
+          <h1 class="post-title" itemprop="name headline">数据类型之Integer与int</h1>
         
 
         <div class="post-meta">
@@ -332,8 +329,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-05T00:54:47+08:00">
-                2018-06-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-01T20:05:08+08:00">
+                2018-11-01
               </time>
             
 
@@ -394,62 +391,43 @@
       
 
       
-        <p><img src="http://p9vujz2kq.bkt.clouddn.com/01title.jpg" alt=" "></p>
-<h1 id="当大一萌新遇上Java系列——浅谈Java中的类与对象"><a href="#当大一萌新遇上Java系列——浅谈Java中的类与对象" class="headerlink" title="当大一萌新遇上Java系列——浅谈Java中的类与对象"></a>当大一萌新遇上Java系列——浅谈Java中的类与对象</h1><p><a href="//www.zhihu.com/people/a-kun-99-10">Mikejiawei</a></p>
-<p>笔者是一名大一新生，虽久闻Java大名，却不识庐山真面目，最近才开始接触Java这门语言。</p>
+        <h2 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h2><p>  众所周知，Java是面向对象的语言，一切皆对象。但是为了兼容人类根深蒂固的数据处理习惯，加快常规数据的处理速度，提供了9种<strong>基本数据类型</strong>，他们都不具备对象的特性，没有属性和行为。Java的9种基本数据类型包括 boolean、byte、char、short、int、long、double和refvar。前8种数据类型表示生活中的真假、字符、整数和小数，最后一种refvar是面向对象世界中的引用变量，也叫引用句柄。<em>此处认为它也是一种基本数据类型。</em><br>  前8种都有其对应的包装数据类型，除了char的对应包装类名为 Character， int为 Integer外，其它所有对应的包装类名就是把首字母大写即可。<br>  <a id="more"></a><br>  <strong>下面列出了这8种基本数据类型的空间占用大小(bit)及对应的包装类等信息。</strong></p>
 <ul>
-<li>Java作为一种流行的语言，自有其可取之处，毕竟它有可以跨平台运行的优点，被众多厂商支持，以及拥有众多的开发工具。</li>
+<li>boolean/1/Boolean<ul>
+<li>byte/8/Byte</li>
+<li>char/16/Character</li>
+<li>short/16/Short</li>
+<li>int/32/Integer</li>
+<li>float/32/Float</li>
+<li>long/64/Long</li>
+<li>double/64/Double</li>
 </ul>
-<p>当然作为一个程序猿吐槽自己用的语言是常见的消遣方式?,例如</p>
-<blockquote>
-<p>JAVA truly is the great equalizing software. It has reduced all computers to mediocrity and buggyness. - NASA’s J-Track web site（Java是一个真正注重平等权的软件，它将所有的电脑（不管配置有多好）统统变成平庸的以及有bug的电脑。- NASA’s J-Track web site）<br>Whenever I write code in Java I feel like I’m filling out endless forms in triplicate. – Joe Marshall (aka jrm)（每当我在Java中写代码时，我都觉得我在填写一式三份的表格 – Joe Marshall）</p>
-</blockquote>
-<p>言归正传，Java作为一种面向对象的语言，顾名思义就是把构成问题事物分解成各个对象，并描述对象在解决整个问题的步骤中的状态和行为。这与C等面向过程的语言不同，有着不同的解决问题的方式。今天我们谈的是java中的“类与对象”。<br><a id="more"></a></p>
-<p>以下正文</p>
-<hr>
+</li>
+</ul>
+<h2 id="包装类型"><a href="#包装类型" class="headerlink" title="包装类型"></a>包装类型</h2><p>前8种基本数据类型都有相应的包装类，因为Java的设计理念是一切皆是对象，在很多情况下，需要以对象的形式操作，比如hashCode()获取哈希值，或者getClass获取类等。包装类的存在解决了基本数据类型无法做到的事情：泛型类型参数、序列化、类型转换、高频区间数据缓存。<br>重点要说的就是最后一项：<strong>缓存池</strong></p>
+<h3 id="缓存池"><a href="#缓存池" class="headerlink" title="缓存池"></a>缓存池</h3><p>事实上除了Float和Double外，其他包装类型都会缓存。接下来我以介绍Integer的方式来讲解缓存。<br>先看一段代码</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> Integer(<span class="number">123</span>);</span><br><span class="line">Integer.valueOf(<span class="number">123</span>);</span><br></pre></td></tr></table></figure>
+<p>new Integer(123) 与 Integer.valueOf(123) 的区别在于：</p>
 <ul>
-<li><strong>如何理解“类与对象”</strong></li>
+<li>new Integer(123) 每次都会新建一个对象</li>
+<li>Integer.valueOf(123) 会使用缓存池中的对象，多次调用会取得同一个对象的引用。</li>
 </ul>
-<p>“类”就是一类事物，是某些有相同特性的事物的集合、总称；例如人类，鱼类，鸟类等。</p>
-<p>”对象“指的是”这一类事物中具体的一个东西“，如一个叫李四的人就是人类中的一个对象，学生李就是学生类中的一个对象，由此可见”类“是一个较为抽象，笼统的概念，对象则更为具体。</p>
-<p>在这里大概有人会问了：</p>
-<p>Q：电子产品类里，手机是其中一个对象，但手机也有很多种，那手机是类还是对象呢？</p>
-<p>A：在电子产品类中，手机是一个对象。当然手机也可以是一个手机类，包括了华为手机，苹果手机这些手机对象。所以类与对象其实是个相对的关系，理解这一点，对以后我们学习继承，接口，理解子父类有很大帮助。（嘿嘿嘿~）</p>
-<p><em><strong>PS:在现实生活中我们可以根据不同的场景来编写不同的类以解决问题，比如你要给你的朋友写个关于空调的程序，那就建一个空调类，在运用海尔，美的空调等对象。</strong></em></p>
+<p>valueOf() 方法的源码。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Integer <span class="title">valueOf</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (i &gt;= IntegerCache.low &amp;&amp; i &lt;= IntegerCache.high)</span><br><span class="line">        <span class="keyword">return</span> IntegerCache.cache[i + (-IntegerCache.low)];</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> Integer(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如上源代码，赋值数据i在缓存区间内直接返回缓存池中的Integer对象，否则就会new一个对象。<br>因此比较时会出现如下问题：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestIntegerCache</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Integer i1 = <span class="number">100</span>;</span><br><span class="line">        Integer i2 = <span class="number">100</span>;</span><br><span class="line">        System.out.println(i1 == i2);</span><br><span class="line">        <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line">        Integer i3 = <span class="number">500</span>;</span><br><span class="line">        Integer i4 = <span class="number">500</span>;</span><br><span class="line">        System.out.println(i3 == i4);</span><br><span class="line">        <span class="comment">//false</span></span><br><span class="line">        System.out.println(i3.equals(i4));</span><br><span class="line">        <span class="comment">//true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><em>所以推荐所有包装类型对象之间的比较，全部使用equals方法。</em></p>
+<p>  在 Java 8 中，Integer 缓存池的大小默认为 -128~127。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> low = -<span class="number">128</span>;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> high;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">final</span> Integer cache[];</span><br><span class="line"></span><br><span class="line"><span class="keyword">static</span> &#123;</span><br><span class="line">    <span class="comment">// high value may be configured by property</span></span><br><span class="line">    <span class="keyword">int</span> h = <span class="number">127</span>;</span><br><span class="line">    String integerCacheHighPropValue =</span><br><span class="line">        sun.misc.VM.getSavedProperty(<span class="string">"java.lang.Integer.IntegerCache.high"</span>);</span><br><span class="line">    <span class="keyword">if</span> (integerCacheHighPropValue != <span class="keyword">null</span>) &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="keyword">int</span> i = parseInt(integerCacheHighPropValue);</span><br><span class="line">            i = Math.max(i, <span class="number">127</span>);</span><br><span class="line">            <span class="comment">// Maximum array size is Integer.MAX_VALUE</span></span><br><span class="line">            h = Math.min(i, Integer.MAX_VALUE - (-low) -<span class="number">1</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span>( NumberFormatException nfe) &#123;</span><br><span class="line">            <span class="comment">// If the property cannot be parsed into an int, ignore it.</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    high = h;</span><br><span class="line"></span><br><span class="line">    cache = <span class="keyword">new</span> Integer[(high - low) + <span class="number">1</span>];</span><br><span class="line">    <span class="keyword">int</span> j = low;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> k = <span class="number">0</span>; k &lt; cache.length; k++)</span><br><span class="line">        cache[k] = <span class="keyword">new</span> Integer(j++);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// range [-128, 127] must be interned (JLS7 5.1.7)</span></span><br><span class="line">    <span class="keyword">assert</span> IntegerCache.high &gt;= <span class="number">127</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>基本类型对应的缓冲池如下：</p>
 <ul>
-<li><strong>格式</strong></li>
+<li>boolean values true and false</li>
+<li>all byte values</li>
+<li>short values between -128 and 127</li>
+<li>int values between -128 and 127</li>
+<li>char in the range \u0000 to \u007F</li>
 </ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">drawPanel</span></span>&#123;</span><br><span class="line">    MyFrame drawFrame = <span class="keyword">new</span> MyFrame();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>注意具体格式来了：</li>
-</ul>
-<p>public class 类名{</p>
-<p>类名 对象名 = new 类名( );</p>
-<p>}</p>
-<p>注意括号和分号都要用英文格式，不然会报错。</p>
-<ul>
-<li><strong>属性和方法</strong></li>
-</ul>
-<p>大家发现，上图中除了类与对象还有一些其他的东西，那就是属性和方法。</p>
-<p>“属性”就是类所具备的特征，比如学生类具有”姓名，班级，学分，年龄“等各种各样的属性。</p>
-<p>”方法“就是对象需要执行的动作，比如”学习，吃饭，睡觉，运动“。</p>
-<ul>
-<li>属性和方法的格式</li>
-</ul>
-<p>属性：</p>
-<p>public 数据类型 数据名；</p>
-<p>如public String name；</p>
-<p>上面指的的数据类型有：整形，浮点型（小数），字符串等等；有其对应的英文比如：整数（int），小数（float）。</p>
-<p>方法：</p>
-<p>pubic void 方法名（参数）{</p>
-<p>方法体</p>
-<p>}</p>
-<ul>
-<li>结束语</li>
-</ul>
-<p><em>欢迎各位从入门到入土的Java工程师们和小伙伴们留言，一起交流学习，文中有错漏之处也欢迎批评指出，人生不能没有bug嘛（哈哈~）</em></p>
-<p><em>希望在这条道路上越走越远，下次再见ヾ(￣▽￣)Bye~Bye~</em></p>
-<p><img src="http://p9vujz2kq.bkt.clouddn.com/01avatar.jpg" alt=""></p>
+<p>相关参考：<br><a href="https://stackoverflow.com/questions/9030817/differences-between-new-integer123-integer-valueof123-and-just-123" target="_blank" rel="noopener">StackOverflow : Differences between new Integer(123), Integer.valueOf(123) and just 123
+</a></p>
 
       
     </div>
@@ -466,12 +444,12 @@
   <!-- JS库 sweetalert 可修改路径 -->
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>本文标题:</span><a href="/2018/06/05/类与对象/">类与对象</a></p>
+  <p><span>本文标题:</span><a href="/2018/11/01/数据类型之Integer与int/">数据类型之Integer与int</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 谢嘉威 的个人博客">谢嘉威</a></p>
-  <p><span>发布时间:</span>2018年06月05日 - 00:06</p>
-  <p><span>最后更新:</span>2018年11月01日 - 11:11</p>
-  <p><span>原始链接:</span><a href="/2018/06/05/类与对象/" title="类与对象">https://www.xiejiawei.cc/2018/06/05/类与对象/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.xiejiawei.cc/2018/06/05/类与对象/"  aria-label="复制成功！"></i></span>
+  <p><span>发布时间:</span>2018年11月01日 - 20:11</p>
+  <p><span>最后更新:</span>2018年11月08日 - 19:11</p>
+  <p><span>原始链接:</span><a href="/2018/11/01/数据类型之Integer与int/" title="数据类型之Integer与int">https://www.xiejiawei.cc/2018/11/01/数据类型之Integer与int/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.xiejiawei.cc/2018/11/01/数据类型之Integer与int/"  aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -543,15 +521,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/10/06/python-talk-0/" rel="next" title="python漫谈-0">
+                <i class="fa fa-chevron-left"></i> python漫谈-0
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/21/三种常用的排序算法/" rel="prev" title="三种常用的排序算法">
-                三种常用的排序算法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -760,7 +738,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#当大一萌新遇上Java系列——浅谈Java中的类与对象"><span class="nav-number">1.</span> <span class="nav-text">当大一萌新遇上Java系列——浅谈Java中的类与对象</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本数据类型"><span class="nav-number">1.</span> <span class="nav-text">基本数据类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#包装类型"><span class="nav-number">2.</span> <span class="nav-text">包装类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#缓存池"><span class="nav-number">2.1.</span> <span class="nav-text">缓存池</span></a></li></ol></li></ol></div>
             
 
           </div>

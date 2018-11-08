@@ -4,29 +4,28 @@
 
     
   <url>
-    <loc>https://www.xiejiawei.cc/2018/10/06/python-talk-0/</loc>
-    <lastmod>2018-10-06T05:19:32.386Z</lastmod>
+    <loc>https://www.xiejiawei.cc/2018/11/01/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B9%8BInteger%E4%B8%8Eint/</loc>
+    <lastmod>2018-11-08T11:10:44.475Z</lastmod>
     <data>
         <display>
-        <title>python漫谈-0</title>
-        <pubTime>2018-10-06T03:06:02.000Z</pubTime>
+        <title>数据类型之Integer与int</title>
+        <pubTime>2018-11-01T12:05:08.000Z</pubTime>
         
-        <tag>python</tag>
+        <tag>Java入门</tag>
          
          
            
              
-              <breadCrumb title="python学习" url="https://www.xiejiawei.cc/categories/python%E5%AD%A6%E4%B9%A0/"/>
+              <breadCrumb title="Java" url="https://www.xiejiawei.cc/categories/Java/"/>
           
         </display>
     </data>
     </url>
 
     
-    
   <url>
     <loc>https://www.xiejiawei.cc/2018/06/05/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/</loc>
-    <lastmod>2018-10-05T03:16:39.032Z</lastmod>
+    <lastmod>2018-11-01T03:27:04.222Z</lastmod>
     <data>
         <display>
         <title>类与对象</title>
@@ -46,7 +45,7 @@
     
   <url>
     <loc>https://www.xiejiawei.cc/2018/08/21/%E4%B8%89%E7%A7%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2018-10-05T01:50:47.080Z</lastmod>
+    <lastmod>2018-11-01T02:58:34.389Z</lastmod>
     <data>
         <display>
         <title>三种常用的排序算法</title>
@@ -65,6 +64,27 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>https://www.xiejiawei.cc/2018/10/06/python-talk-0/</loc>
+    <lastmod>2018-10-06T05:19:32.386Z</lastmod>
+    <data>
+        <display>
+        <title>python漫谈-0</title>
+        <pubTime>2018-10-06T03:06:02.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+         
+           
+             
+              <breadCrumb title="python学习" url="https://www.xiejiawei.cc/categories/python%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     

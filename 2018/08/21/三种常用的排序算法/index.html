@@ -92,18 +92,18 @@
 
 
 
-<meta name="description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2)  稳定性：稳定[^1]  排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺">
+<meta name="description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2) 稳定性：稳定[^1] 排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺序错">
 <meta name="keywords" content="Java入门,算法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="三种常用的排序算法">
 <meta property="og:url" content="https://www.xiejiawei.cc/2018/08/21/三种常用的排序算法/index.html">
 <meta property="og:site_name" content="XJW&#39;s Blog">
-<meta property="og:description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2)  稳定性：稳定[^1]  排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺">
+<meta property="og:description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2) 稳定性：稳定[^1] 排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺序错">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-05T01:50:47.080Z">
+<meta property="og:updated_time" content="2018-11-01T02:58:34.389Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="三种常用的排序算法">
-<meta name="twitter:description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2)  稳定性：稳定[^1]  排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺">
+<meta name="twitter:description" content="三种常用的排序算法引言笔者 是一名在校大学生，在学校常用的算法有很多，毕竟算法是程序的灵魂 ，我就整理一点算法笔记放在博客上以供参考。PS: Java版本  冒泡排序 平均时间复杂度：O(n^2) 稳定性：稳定[^1] 排序算法的稳定性(腾讯校招2016笔试题曾考过)  冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺序错">
 
 
 
@@ -394,10 +394,8 @@
         <h1 id="三种常用的排序算法"><a href="#三种常用的排序算法" class="headerlink" title="三种常用的排序算法"></a>三种常用的排序算法</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p><em>笔者</em> 是一名在校大学生，在学校常用的算法有很多，<strong>毕竟算法是程序的灵魂</strong> ，我就整理一点算法笔记放在博客上以供参考。<em>PS: Java版本</em></p>
 <hr>
 <h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><ul>
-<li><p>平均时间复杂度：O(n^2)</p>
-</li>
-<li><p>稳定性：稳定[^1]</p>
-</li>
+<li>平均时间复杂度：O(n^2)</li>
+<li>稳定性：稳定[^1]</li>
 <li><p>排序算法的稳定性(<em>腾讯校招2016笔试题曾考过</em>)</p>
 <blockquote>
 <p>冒泡排序是一种极其简单的排序算法，也是我所学的第一个排序算法。它重复地走访过要排序的元素，依此比较相邻两个元素，如果他们的顺序错误就把他们调换过来，直到没有元素再需要交换，排序完成。这个算法的名字由来是因为越小(或越大)的元素会经由交换慢慢“浮”到数列的顶端。 </p>
@@ -434,7 +432,7 @@
 </li>
 <li><p><strong>快速排序是不稳定的排序算法，不稳定发生在基准元素与A[tail+1]交换的时刻。</strong> </p>
 <blockquote>
-<p>​    快速排序是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序n个元素要$O(nlog n)$次比较。在最坏状况下则需要O(n^2)次比较，但这种状况并不常见。事实上，快速排序通常明显比其他$O(nlog n)$ 算法更快，因为它的内部循环可以在大部分的架构上很有效率地被实现出来。</p>
+<p>​    快速排序是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序n个元素要O(nlog n)次比较。在最坏状况下则需要O(n^2)次比较，但这种状况并不常见。事实上，快速排序通常明显比其他O(nlog n) 算法更快，因为它的内部循环可以在大部分的架构上很有效率地被实现出来。</p>
 <p>　　快速排序使用分治策略(Divide and Conquer)来把一个序列分为两个子序列。步骤为：</p>
 <ol>
 <li>从序列中挑出一个元素，作为”基准”(pivot).</li>
@@ -492,7 +490,7 @@ Email： 15270013718@163.com
   <p><span>本文标题:</span><a href="/2018/08/21/三种常用的排序算法/">三种常用的排序算法</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 谢嘉威 的个人博客">谢嘉威</a></p>
   <p><span>发布时间:</span>2018年08月21日 - 00:08</p>
-  <p><span>最后更新:</span>2018年10月05日 - 09:10</p>
+  <p><span>最后更新:</span>2018年11月01日 - 10:11</p>
   <p><span>原始链接:</span><a href="/2018/08/21/三种常用的排序算法/" title="三种常用的排序算法">https://www.xiejiawei.cc/2018/08/21/三种常用的排序算法/</a>
     <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.xiejiawei.cc/2018/08/21/三种常用的排序算法/"  aria-label="复制成功！"></i></span>
   </p>
@@ -666,7 +664,7 @@ Email： 15270013718@163.com
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -754,6 +752,10 @@ Email： 15270013718@163.com
                   
                   
                     <li>
+                      <a href="/2018/11/01/数据类型之Integer与int/" title="数据类型之Integer与int" target="_blank">数据类型之Integer与int</a>
+                    </li>
+                  
+                    <li>
                       <a href="/2018/10/06/python-talk-0/" title="python漫谈-0" target="_blank">python漫谈-0</a>
                     </li>
                   
@@ -827,7 +829,7 @@ Email： 15270013718@163.com
 
 
 
-  <span class="post-count">博客全站共4k字</span>
+  <span class="post-count">博客全站共4.8k字</span>
   <span class="post-meta-divider">|</span>
 
 
