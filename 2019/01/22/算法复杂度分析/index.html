@@ -79,7 +79,7 @@
 
 
 
-  <meta name="keywords" content="python," />
+  <meta name="keywords" content="算法," />
 
 
 
@@ -92,21 +92,21 @@
 
 
 
-<meta name="description" content="​                                                                      Hello,又和大家见面了。最近国庆放假终于可以腾开手写我的博客啦！ ^_^!  ​    Python 漫谈系列 是笔者对于过往 python 学习的总结和对新知识的记录。这个系列将见证本人的成长，希望能一直保持更新">
-<meta name="keywords" content="python">
+<meta name="description" content="终于放寒假了，松下一口气的博主可以专心地更新博客了，希望寒假能有更大的进步！本系列在于记载我的算法学习笔录，强化学习，废话不多说，开始吧。  什么是复杂度分析？ 数据结构和算法解决的是“如何让计算机更快时间，更省空间的解决问题”。 因此需要从执行时间和占用空间两个维度来评估数据结构和算法的性能。 分别用时间复杂度和空间复杂度两个概念来描述性能问题，二者统称为复杂度。  复杂度描述的是算法执行时间（">
+<meta name="keywords" content="算法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python漫谈-0">
-<meta property="og:url" content="https://www.xiejiawei.cc/2018/10/06/python-talk-0/index.html">
+<meta property="og:title" content="算法复杂度分析">
+<meta property="og:url" content="https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/index.html">
 <meta property="og:site_name" content="XJW&#39;s Blog">
-<meta property="og:description" content="​                                                                      Hello,又和大家见面了。最近国庆放假终于可以腾开手写我的博客啦！ ^_^!  ​    Python 漫谈系列 是笔者对于过往 python 学习的总结和对新知识的记录。这个系列将见证本人的成长，希望能一直保持更新">
+<meta property="og:description" content="终于放寒假了，松下一口气的博主可以专心地更新博客了，希望寒假能有更大的进步！本系列在于记载我的算法学习笔录，强化学习，废话不多说，开始吧。  什么是复杂度分析？ 数据结构和算法解决的是“如何让计算机更快时间，更省空间的解决问题”。 因此需要从执行时间和占用空间两个维度来评估数据结构和算法的性能。 分别用时间复杂度和空间复杂度两个概念来描述性能问题，二者统称为复杂度。  复杂度描述的是算法执行时间（">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://www.xiejiawei.cc/2018/10/06/python-talk-0/avatar.jpg">
-<meta property="og:image" content="https://www.xiejiawei.cc/2018/10/06/python-talk-0/python.png">
-<meta property="og:updated_time" content="2018-10-06T05:19:32.386Z">
+<meta property="og:image" content="https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/a.jpg">
+<meta property="og:image" content="https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/b.jpg">
+<meta property="og:updated_time" content="2019-01-22T04:01:54.538Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python漫谈-0">
-<meta name="twitter:description" content="​                                                                      Hello,又和大家见面了。最近国庆放假终于可以腾开手写我的博客啦！ ^_^!  ​    Python 漫谈系列 是笔者对于过往 python 学习的总结和对新知识的记录。这个系列将见证本人的成长，希望能一直保持更新">
-<meta name="twitter:image" content="https://www.xiejiawei.cc/2018/10/06/python-talk-0/avatar.jpg">
+<meta name="twitter:title" content="算法复杂度分析">
+<meta name="twitter:description" content="终于放寒假了，松下一口气的博主可以专心地更新博客了，希望寒假能有更大的进步！本系列在于记载我的算法学习笔录，强化学习，废话不多说，开始吧。  什么是复杂度分析？ 数据结构和算法解决的是“如何让计算机更快时间，更省空间的解决问题”。 因此需要从执行时间和占用空间两个维度来评估数据结构和算法的性能。 分别用时间复杂度和空间复杂度两个概念来描述性能问题，二者统称为复杂度。  复杂度描述的是算法执行时间（">
+<meta name="twitter:image" content="https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/a.jpg">
 
 
 
@@ -136,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="https://www.xiejiawei.cc/2018/10/06/python-talk-0/"/>
+  <link rel="canonical" href="https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/"/>
 
 
 
 
 
-  <title>python漫谈-0 | XJW's Blog</title>
+  <title>算法复杂度分析 | XJW's Blog</title>
   
 
 
@@ -303,7 +303,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.xiejiawei.cc/2018/10/06/python-talk-0/">
+    <link itemprop="mainEntityOfPage" href="https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="谢嘉威">
@@ -320,7 +320,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">python漫谈-0</h1>
+          <h1 class="post-title" itemprop="name headline">算法复杂度分析</h1>
         
 
         <div class="post-meta">
@@ -332,8 +332,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-06T11:06:02+08:00">
-                2018-10-06
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-22T10:56:35+08:00">
+                2019-01-22
               </time>
             
 
@@ -355,8 +355,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/python学习/" itemprop="url" rel="index">
-                    <span itemprop="name">python学习</span>
+                  <a href="/categories/Algorithm/" itemprop="url" rel="index">
+                    <span itemprop="name">Algorithm</span>
                   </a>
                 </span>
 
@@ -394,60 +394,57 @@
       
 
       
-        <p>​                                                                     <a href="//www.zhihu.com/people/a-kun-99-10"><img src="/2018/10/06/python-talk-0/avatar.jpg" alt="Mikejiawei"></a></p>
-<p>Hello,又和大家见面了。最近国庆放假终于可以腾开手写我的博客啦！ ^_^!</p>
+        <p>终于放寒假了，松下一口气的博主可以专心地更新博客了，希望寒假能有更大的进步！<br>本系列在于记载我的算法学习笔录，强化学习，废话不多说，开始吧。</p>
 <hr>
-<p>​    <strong>Python 漫谈系列</strong> 是笔者对于过往 python 学习的总结和对新知识的记录。这个系列将见证本人的成长，<em>希望能一直保持更新</em></p>
+<h1 id="什么是复杂度分析？"><a href="#什么是复杂度分析？" class="headerlink" title="什么是复杂度分析？"></a>什么是复杂度分析？</h1><ol>
+<li>数据结构和算法解决的是“如何让计算机更快时间，更省空间的解决问题”。</li>
+<li>因此需要从执行时间和占用空间两个维度来评估数据结构和算法的性能。</li>
+<li>分别用时间复杂度和空间复杂度两个概念来描述性能问题，二者统称为复杂度。 </li>
+<li><p>复杂度描述的是算法执行时间（或占用空间）与数据规模的增长关系。故称其为<strong>渐进时间（空间）复杂度</strong></p>
 <a id="more"></a>
-<p>废话说完了，现在开始正文。</p>
-<p>​    <a href="https://www.python.org/" title="Python" target="_blank" rel="noopener">Python</a> 是一门脚本语言，详见官方文档。它的应用范围十分广泛，涉足<strong>Web应用开发</strong>，<strong>系统网络运维</strong>，<strong>科学与数字运算</strong>，<strong>3D游戏开发</strong>，<strong>网络编程</strong>，等等。足见其灵活性与强大性。</p>
-<p>​    由此可见，python 不局限于一个简单的脚本，或者写一个爬虫，文件处理。它有许多神奇等着我们去挖掘！本篇为开篇，简单介绍一下 <strong>Python</strong> 的变量和字符串。</p>
-<hr>
-<p>【注】</p>
-<ul>
-<li><p><em>此系列主要是总结，会结合一些案例与题目。</em> </p>
+<h1 id="为什么要进行复杂度分析？"><a href="#为什么要进行复杂度分析？" class="headerlink" title="为什么要进行复杂度分析？"></a>为什么要进行复杂度分析？</h1></li>
+<li><p>和性能测试相比，复杂度分析有不依赖环境、成本低、效率高、易操作、指导性强的特点。</p>
 </li>
-<li><p><a href="https://docs.python.org/3/library/idle.html" title="IDLE" target="_blank" rel="noopener">IDLE</a></p>
+<li>掌握复杂度分析将能编写出性能更优秀的代码，有利于降低系统开发和维护成本</li>
+</ol>
+<h1 id="如何进行复杂度分析？"><a href="#如何进行复杂度分析？" class="headerlink" title="如何进行复杂度分析？"></a>如何进行复杂度分析？</h1><h2 id="大O表示法"><a href="#大O表示法" class="headerlink" title="大O表示法"></a>大O表示法</h2><ol>
+<li>来源</li>
+</ol>
+<p>   算法的执行时间与代码的执行次数成正比，用 T(n) = O(f(n)) 表示，其中T(n)表示算法执行总时间，f(n)表示每行代码执行总次数，而n往往表示数据的规模。</p>
+<ol start="2">
+<li><p>特点</p>
+<p>以时间复杂度为例，由于时间复杂度描述的是算法执行时间与数据规模的增长变化趋势，所以常量阶、低阶以及系数实际上对这种增长趋势不产生决定性影响。所以在做时间复杂度分析时忽略这些项。</p>
 </li>
-</ul>
-<hr>
-<h1 id="python中的变量"><a href="#python中的变量" class="headerlink" title="python中的变量"></a>python中的变量</h1><h2 id="python数据类型"><a href="#python数据类型" class="headerlink" title="python数据类型"></a>python数据类型</h2><p>说到<strong>python</strong>中的常量，不得不说它的<strong>数据类型</strong>，其分为 哈希类型、不可哈希类型。</p>
-<p><strong>哈希类型</strong>，即在原地不能改变的变量类型，不可变类型。可利用hash函数查看器hash值，也可以作为字典的key   </p>
+</ol>
+<h2 id="复杂度分析法则"><a href="#复杂度分析法则" class="headerlink" title="复杂度分析法则"></a>复杂度分析法则</h2><ol>
+<li>单段代码看高频：比如循环</li>
+<li>多段代码取最大： 比如一段代码中有单循环和多重循环，那么取多重循环</li>
+<li>嵌套代码求乘积：比如递归、多重循环等</li>
+<li>多个规模求加法： 比如有两个参数控制两个循环的次数，那么就取二者复杂度相加 O(m+n)</li>
+</ol>
+<h1 id="常用的复杂度级别"><a href="#常用的复杂度级别" class="headerlink" title="常用的复杂度级别"></a>常用的复杂度级别</h1><p>复杂度量级：</p>
+<p><img src="/2019/01/22/算法复杂度分析/a.jpg" alt="常用复杂度量级"></p>
 <ul>
-<li>“ 数字类型 ： int, float, decimal.Decimal, fractions.Fraction, complex “</li>
-<li>“ 字符串类型 ：str, bytes  “</li>
-<li>“ 元组 ：tuple  “</li>
-<li>“ 冻结集合 ：frozenset “</li>
-<li>“ 布尔类型 ：True，False “</li>
-<li>“ None “</li>
-</ul>
-<p><strong>不可哈希类型</strong>，原地可变类型：list、dict 和 set，它们不可以作为字典的key。</p>
-<h2 id="python中的变量-1"><a href="#python中的变量-1" class="headerlink" title="python中的变量"></a>python中的变量</h2><p>接触过其它语言的人都知道，把一个值赋值给一个变量名时，Ta会存储在内存中，我们称其为变量。在大多数语言当中，都把这种行为称作“给变量赋值”。</p>
-<p>不过 Python 与大多数其它计算机语言的做法稍有不同， Ta并不是把值储存在变量中， 而更像是把名字贴在值的上边，<strong>接触过C/C++的知道这其实是指针</strong></p>
-<p><strong>举个栗子</strong></p>
-<blockquote>
-<p><code>int</code> 类型在python中是动态长度的。因为python3中 int 类型是长整型，理论支持无限大的数字，但它的结构其实也很简单, 在 <code>longintepr.h</code> 中定义： </p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">struct _longobject &#123;</span><br><span class="line">  PyObject_VAR_HEAD</span><br><span class="line">  digi ob_digit[<span class="number">1</span>];</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>这结构是什么意思呢，重点在于 <code>ob_digit</code> 它是一个数组指针。<code>digit</code> 可认为是 <code>int</code> 的别名。python的整型存储机制是这样的。比方要表示一个很大的数: <code>123456789</code> 。而每个元素最大只能表示3位十进制数（为理解打的比方）。那么python就会这样存储：</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ob_digit[<span class="number">0</span>] = <span class="number">789</span></span><br><span class="line">ob_digit[<span class="number">1</span>] = <span class="number">456</span></span><br><span class="line">ob_digit[<span class="number">2</span>] = <span class="number">123</span></span><br></pre></td></tr></table></figure>
-<h1 id="Python-中的字符串"><a href="#Python-中的字符串" class="headerlink" title="Python 中的字符串"></a>Python 中的字符串</h1><ul>
-<li><p>例子：<strong>试试直接输入 &gt;&gt;&gt;5+8 与输入 &gt;&gt;&gt;print(5+8) 有何不同？</strong>  </p>
-<p>不妨试试直接直接输入 &gt;&gt;&gt;’I love python!’ 与输入 &gt;&gt;&gt;print(‘I love python!’) 有何不同？ 没错，直接输入是将结果及类型打印到屏幕上，而print是将结果打印到屏幕上。</p>
+<li><p>多项式阶：随着数据规模的增大，算法的执行时间和空间占用，按照多项式的比例增长。包括：</p>
+<p>O(1) 、O(logn)、O(n) 、O(nlogn) 、O(n^2)… O(n^k).</p>
+</li>
+<li><p>非多项式阶：随着数据规模的增大，算法的执行时间和空间占用暴增（NP问题），这类算法性能极差。</p>
+<p>O(2^n) 、O(n!)</p>
 </li>
 </ul>
-<p>没错python中的字符串是一个比较有意思的东西，举例如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#常见字符串常量和表达式</span></span><br><span class="line">S = <span class="string">''</span>				<span class="comment"># 空字符串</span></span><br><span class="line">S = <span class="string">" spam's "</span>		<span class="comment"># 双引号 和单引号相同</span></span><br><span class="line">S = <span class="string">"s\np\ta\x00m"</span>  <span class="comment"># 转义字符</span></span><br><span class="line">S = <span class="string">r'\temp'</span>		<span class="comment">#raw字符串，抑制转义，但是末尾不能+\</span></span><br><span class="line"><span class="comment">#如果要在末尾加\ 可以选择拼接一个 ^-^!</span></span><br><span class="line">S = <span class="string">b'Spam'</span>			<span class="comment">#Python3 中的字节字符串</span></span><br><span class="line">s1+s2, s1*<span class="number">3</span>, s[i], s[i:j], len(s) <span class="comment">#字符串操作</span></span><br><span class="line"><span class="comment">#另类字符串拼接</span></span><br><span class="line">name = <span class="string">"da"</span><span class="string">"han"</span>	<span class="comment">#单行， name = "dahan"</span></span><br><span class="line">name = <span class="string">"da"</span> \		<span class="comment">#多行， name = "dahan"</span></span><br><span class="line">		<span class="string">"han"</span></span><br><span class="line"><span class="comment">#多行字符串块</span></span><br><span class="line">m = <span class="string">"""hello world</span></span><br><span class="line"><span class="string">	   hello html</span></span><br><span class="line"><span class="string">	   hello python</span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure>
-<p><strong>其实python中的字符串妙用和功能还有很多，这里这是浅显的介绍一下，以后在项目中我会有所体现的哦！</strong></p>
+<p><img src="/2019/01/22/算法复杂度分析/b.jpg" alt="复杂度曲线"></p>
+<h1 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h1><p>首先我们要引入几个概念：<strong>最好情况时间复杂度（best case time complexity）、最坏情况时间时间按复杂度（worst case time complexity）、平均情况时间复杂度 (average case time complexity)、均摊时间复杂度(amortized time complexity)。</strong></p>
+<h2 id="为什么要引入这4个概念？"><a href="#为什么要引入这4个概念？" class="headerlink" title="为什么要引入这4个概念？"></a>为什么要引入这4个概念？</h2><ol>
+<li>同一段代码在不同情况下时间复杂度会出现量级差异，为了更全面，更准确的描述代码的时间复杂度，所以引入这4个概念。 </li>
+<li>代码复杂度在不同情况下出现量级差别时才需要区别这四种复杂度。大多数情况下，是不需要区别分析它们的。 </li>
+</ol>
+<p>例子：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 全局变量，大小为 10 的数组 array，长度 len，下标 i。</span></span><br><span class="line"><span class="keyword">int</span> <span class="built_in">array</span>[] = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>]; </span><br><span class="line"><span class="keyword">int</span> len = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 往数组中添加一个元素</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> element)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (i &gt;= len) &#123; <span class="comment">// 数组空间不够了</span></span><br><span class="line">     <span class="comment">// 重新申请一个 2 倍大小的数组空间</span></span><br><span class="line">     <span class="keyword">int</span> new_array[] = <span class="keyword">new</span> <span class="keyword">int</span>[len*<span class="number">2</span>];</span><br><span class="line">     <span class="comment">// 把原来 array 数组中的数据依次 copy 到 new_array</span></span><br><span class="line">     <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; len; ++j) &#123;</span><br><span class="line">       new_array[j] = <span class="built_in">array</span>[j];</span><br><span class="line">     &#125;</span><br><span class="line">     <span class="comment">// new_array 复制给 array，array 现在大小就是 2 倍 len 了</span></span><br><span class="line">     <span class="built_in">array</span> = new_array;</span><br><span class="line">     len = <span class="number">2</span> * len;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="comment">// 将 element 放到下标为 i 的位置，下标 i 加一</span></span><br><span class="line">   <span class="built_in">array</span>[i] = element;</span><br><span class="line">   ++i;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>该算法的最好情况时间复杂度(best case time complexity)为O(1);</p>
+<p>最坏情况时间复杂度(worst case time complexity)为O(n); </p>
+<p>均摊时间复杂度 (amortized time complexity) 为O(1)；</p>
 <hr>
-<ul>
-<li>因为笔者是初学者尚有许多不足，欢迎各位观众姥爷批评指正。</li>
-<li>希望此系列能越写越好 QAQ</li>
-</ul>
-<p><img src="/2018/10/06/python-talk-0/python.png" alt="python"></p>
-<p>​    </p>
+<p>以上为本篇内容，若有不足之处，请诸位多多包涵，斧正。笔者在此谢过。</p>
 
       
     </div>
@@ -464,12 +461,12 @@
   <!-- JS库 sweetalert 可修改路径 -->
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>本文标题:</span><a href="/2018/10/06/python-talk-0/">python漫谈-0</a></p>
+  <p><span>本文标题:</span><a href="/2019/01/22/算法复杂度分析/">算法复杂度分析</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 谢嘉威 的个人博客">谢嘉威</a></p>
-  <p><span>发布时间:</span>2018年10月06日 - 11:10</p>
-  <p><span>最后更新:</span>2018年10月06日 - 13:10</p>
-  <p><span>原始链接:</span><a href="/2018/10/06/python-talk-0/" title="python漫谈-0">https://www.xiejiawei.cc/2018/10/06/python-talk-0/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.xiejiawei.cc/2018/10/06/python-talk-0/"  aria-label="复制成功！"></i></span>
+  <p><span>发布时间:</span>2019年01月22日 - 10:01</p>
+  <p><span>最后更新:</span>2019年01月22日 - 12:01</p>
+  <p><span>原始链接:</span><a href="/2019/01/22/算法复杂度分析/" title="算法复杂度分析">https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.xiejiawei.cc/2019/01/22/算法复杂度分析/"  aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -528,7 +525,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/python/" rel="tag"><i class="fa fa-tag"></i> python</a>
+            <a href="/tags/算法/" rel="tag"><i class="fa fa-tag"></i> 算法</a>
           
         </div>
       
@@ -541,8 +538,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/08/21/三种常用的排序算法/" rel="next" title="三种常用的排序算法">
-                <i class="fa fa-chevron-left"></i> 三种常用的排序算法
+              <a href="/2018/11/01/数据类型之Integer与int/" rel="next" title="数据类型之Integer与int">
+                <i class="fa fa-chevron-left"></i> 数据类型之Integer与int
               </a>
             
           </div>
@@ -550,10 +547,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/11/01/数据类型之Integer与int/" rel="prev" title="数据类型之Integer与int">
-                数据类型之Integer与int <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -766,7 +759,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#python中的变量"><span class="nav-number">1.</span> <span class="nav-text">python中的变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#python数据类型"><span class="nav-number">1.1.</span> <span class="nav-text">python数据类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python中的变量-1"><span class="nav-number">1.2.</span> <span class="nav-text">python中的变量</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Python-中的字符串"><span class="nav-number">2.</span> <span class="nav-text">Python 中的字符串</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#什么是复杂度分析？"><span class="nav-number">1.</span> <span class="nav-text">什么是复杂度分析？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#为什么要进行复杂度分析？"><span class="nav-number">2.</span> <span class="nav-text">为什么要进行复杂度分析？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#如何进行复杂度分析？"><span class="nav-number">3.</span> <span class="nav-text">如何进行复杂度分析？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#大O表示法"><span class="nav-number">3.1.</span> <span class="nav-text">大O表示法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#复杂度分析法则"><span class="nav-number">3.2.</span> <span class="nav-text">复杂度分析法则</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用的复杂度级别"><span class="nav-number">4.</span> <span class="nav-text">常用的复杂度级别</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#复杂度分析"><span class="nav-number">5.</span> <span class="nav-text">复杂度分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要引入这4个概念？"><span class="nav-number">5.1.</span> <span class="nav-text">为什么要引入这4个概念？</span></a></li></ol></li></ol></div>
             
 
           </div>
